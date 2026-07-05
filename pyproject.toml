@@ -1,0 +1,16 @@
+[project]
+name = "minicursor"
+version = "0.1.0"
+description = "A modular local coding assistant with MLX and llama.cpp backends"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+]
+
+[project.scripts]
+minicursor = "minicursor:main"
+
+[build-system]
+requires = ["uv_build>=0.11.25,<0.12.0"]
+build-backend = "uv_build"
